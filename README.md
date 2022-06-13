@@ -8,6 +8,8 @@
 
 > 有问题请开 issue 或者 discussions。
 
+> 很多人反馈 heroku 封号，我自己的还好用，请大家反馈，如果大部分人都被封号，我就准备开个新坑，反正免费服务也有其他家。。只是我懒，同时维护多个实在没有时间。
+
 ## **请大家不要跑速度测试，请用 youtube 测试。**
 
 
@@ -203,9 +205,6 @@ https://github.com/badafans/better-cloudflare-ip
             },
             "streamSettings": {
                 "network": "ws",
-                "wsSettings": {
-                    "path": "/ws"  // 这里是新加的
-                },
                 "security": "tls",
                 "tlsSettings": {
                     "serverName": "***.herokuapp.com" // heroku app host 或者 cloudflare worker host
